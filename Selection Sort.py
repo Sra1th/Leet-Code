@@ -18,6 +18,7 @@ def SelectionSort(sort_list):
                 pos = j
         sort_list[i],sort_list[pos]=sort_list[pos],sort_list[i] # Place the min element at start of unsorted sub array
 
+# Driver code
 my_list = [3,9,1,20,2,7,4,8,5,16,6]
 SelectionSort(my_list)
 print(my_list)
